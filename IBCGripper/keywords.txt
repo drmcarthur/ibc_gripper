@@ -1,0 +1,78 @@
+#######################################
+# Syntax Coloring Map For IBCGripper
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+IBCGripper	KEYWORD1
+GripperState	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initPinModes	KEYWORD2
+update		KEYWORD2
+home		KEYWORD2
+grip		KEYWORD2
+gripSoft	KEYWORD2
+hold		KEYWORD2
+open		KEYWORD2
+openSoft	KEYWORD2
+idle		KEYWORD2
+
+getState	KEYWORD2
+getSteps	KEYWORD2
+getMM		KEYWORD2
+getSpanMM	KEYWORD2
+getDebug	KEYWORD2
+
+setHome		KEYWORD2
+setSteps	KEYWORD2
+setMM		KEYWORD2
+setDebug	KEYWORD2
+mmToSteps	KEYWORD2    
+spanMMToSteps	KEYWORD2 
+ISR_ENCODER_A	KEYWORD2 
+ISR_ENCODER_B	KEYWORD2 
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+// Motor speed/direction control definitions
+IDLE			LITERAL1
+HOME			LITERAL1
+GRIP			LITERAL1
+GRIP_SOFT		LITERAL1
+OPEN			LITERAL1
+OPEN_SOFT		LITERAL1
+HOLD			LITERAL1
+MOT_FOR			LITERAL1
+MOT_REV			LITERAL1
+MIN_MOT_PWM		LITERAL1
+K_P			LITERAL1
+K_I			LITERAL1
+K_D			LITERAL1
+ERR_THRESH		LITERAL1
+STEP_PER_DEG		LITERAL1
+STEP_PER_REV		LITERAL1
+STEP_PER_MM		LITERAL1
+STEP_PER_SPAN_MM	LITERAL1
+GRIP_OVERLAP		LITERAL1
+MAX_OPEN		LITERAL1
+HOME_RELIEF		LITERAL1
+GRIP_TRIES		LITERAL1
+IBC_CONT_HZ		LITERAL1
+MOT_IN1			LITERAL1
+MOT_IN2			LITERAL1
+MOT_PWM			LITERAL1
+ENC_A			LITERAL1
+ENC_B			LITERAL1
+IBC_DEBUG		LITERAL1
+DEBUG_HZ		LITERAL1
